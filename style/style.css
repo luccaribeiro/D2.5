@@ -1,0 +1,142 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+.tudo {
+  background-image: url(../galaxia-agua_site.webp);
+  background-attachment: fixed;
+  padding-bottom: 40px;
+}
+.logomarca {
+  background-color: rgba(136, 151, 158, 0.911);
+  height: 70px;
+  width: 70px;
+  margin: 0 auto;
+  transform: translateX(50%) rotate(45deg);
+  position: absolute;
+  right: 50%;
+  top: -36px;
+}
+.logotipo {
+  position: absolute;
+  right: 50%;
+  top: -6px;
+  font-size: 40px;
+  transform: translateX(50%);
+}
+.cabecalho {
+  color: white;
+  text-align: center;
+}
+.titulo {
+  font-size: 80px;
+}
+.cabecalho p {
+  font-size: 30px;
+  margin-bottom: 20px;
+}
+.conteudo {
+  padding: 20px;
+  width: 40%;
+  margin: 0 auto;
+  background-color: white;
+  border-radius: 20px;
+}
+.nav {
+  text-align: center;
+  padding: 40px;
+}
+.nav span {
+  font-size: 26px;
+  margin: 0 40px;
+}
+.nav span:hover {
+  border: 1px solid rgba(0, 0, 0, 0.342);
+  border-radius: 16px;
+}
+.avatar {
+  height: 150px;
+  width: 150px;
+  float: left;
+  padding-right: 25px;
+}
+
+.descricao {
+  margin-left: 105px;
+  font-size: 23px;
+}
+
+.topicos h1 {
+  margin: 20px;
+  font-size: 42px;
+}
+.topicos li {
+  margin: 0 20px;
+  font-size: 22px;
+}
+.portifolio {
+  height: 300px;
+  width: 300px;
+  margin: 10px 40px;
+}
+.contact {
+  font-size: 18px;
+  display: block;
+  margin: 10px;
+}
+.icons {
+  height: 20px;
+  width: 20px;
+  display: inline-block;
+}
+.skills h1 {
+  font-size: 42px;
+}
+
+.skills label {
+  font-size: 25px;
+  width: 120px;
+  display: inline-block;
+}
+
+.skills progress {
+  width: 250px;
+  height: 25px;
+}
+.skills p {
+  margin: 20px;
+}
+.botao img {
+  cursor: pointer;
+  background-color: rgb(222, 138, 255);
+  width: 50px;
+  height: 50px;
+  position: fixed;
+  opacity: 20%;
+  right: 60px;
+  bottom: 20px;
+}
+
+.botao img:hover {
+  opacity: 100%;
+}
+.nav a {
+  color: black;
+  text-decoration: none;
+}
+
+.footer img {
+  height: 40px;
+  width: 40px;
+  margin: 10px 20px;
+}
+.footer {
+  color: white;
+  padding: 90px;
+  font-size: 30px;
+  text-align: center;
+  background-color: rgb(93, 40, 100);
+}
