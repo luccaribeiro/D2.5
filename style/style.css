@@ -23,8 +23,8 @@ html {
 .logotipo {
   position: absolute;
   right: 50%;
-  top: -6px;
-  font-size: 40px;
+  top: -8px;
+  font-size: 32px;
   transform: translateX(50%);
 }
 .cabecalho {
@@ -80,7 +80,7 @@ html {
 .portifolio {
   height: 300px;
   width: 300px;
-  margin: 10px 40px;
+  margin: 10px 20px;
 }
 .contact {
   font-size: 18px;
